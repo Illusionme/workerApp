@@ -1,3 +1,0 @@
-/index.html
-  # headers for that path:
-  Content-Security-Policy: script-src 'self' *.netlify.com;
