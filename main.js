@@ -4,6 +4,7 @@ const second = document.querySelector('#number2');
 const result = document.querySelector('.result');
 
 if (window.Worker) {
+	// This is how I tried initially
 	// const myWorker = new Worker("https://vigorous-gates-86c4d7.netlify.com/worker.js");
 
 	const myWorker = function createWorker (workerUrl) {
